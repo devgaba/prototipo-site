@@ -171,10 +171,17 @@ footer .box-footer.primeiro{
 }
 
 @media (min-width: 1000px){
+    
+    main .box-main
+    .campo-box-main.primeiro,
     main .box-main
     .campo-box-main.segundo{
-        width: 50%;
-        padding: 0px 60px;
+        margin: 0px 100px;
+    }
+    main .box-main
+    .campo-box-main.segundo{
+        width: 600px;
+        padding-right: 0px;
     }
 
     main .box-main
@@ -185,7 +192,7 @@ footer .box-footer.primeiro{
 
     header .box-cabecalho img{
         width: auto;
-        height: 50px;
+        height: 70px;
     }
 
     header .box-cabecalho 
