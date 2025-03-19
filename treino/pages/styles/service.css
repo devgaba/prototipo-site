@@ -72,6 +72,8 @@ header .box-cabecalho nav ul a:hover{
     background-color: #3B3748;
     color: white;
 }
+
+
 /*========= MAIN ========*/
 main{
     display: flex;
@@ -93,13 +95,21 @@ main .box-main{
     letter-spacing: 2px;
     color: white;
 }
-
-main .box-main .card-servico{
+main .box-main a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    text-decoration: none;
+    color: white;
+}
+main .box-main a .card-servico{
     display: flex;
     flex-direction: column;
-    margin: 10px 0px;
+    flex: 1;
     width: 100%;
-    height: 200px;
+    height: 80%;
+    margin: 10px 0px;
     border-radius: 2px;
 }
 
@@ -146,7 +156,7 @@ main .box-main .card-servico.card-servico.imposto:hover{
      url(/images/imposto_renda.png);
 }
 
-
+/*------------ CONFIGURAÇÃO TÍTULOS E TEXTOS (CARDS)------*/
 main .box-main .card-servico.card-servico.trabalhista
 .titulo-campo-card-servico-trabalhista{
     display: flex;
@@ -167,7 +177,7 @@ main .box-main .card-servico.card-servico.trabalhista
     flex: 1;
     font-size: 12px;
     font-weight: 200;
-    margin: 0px 10px;
+    padding: 0px 20px;
 }
 
 
@@ -190,6 +200,7 @@ main .box-main .card-servico.card-servico.card-servico.empresarial
     flex: 1;
     font-size: 12px;
     font-weight: 200;
+    padding: 0px 20px;
 }
 
 
@@ -201,6 +212,7 @@ main .box-main .card-servico.card-servico.imposto
     text-align: center;
     flex: 1;
     font-size: 25px;
+    margin: 0px 20px;
 }
 
 main .box-main .card-servico.card-servico.card-servico.imposto
@@ -212,7 +224,10 @@ main .box-main .card-servico.card-servico.card-servico.imposto
     flex: 1;
     font-size: 12px;
     font-weight: 200;
+    padding: 0px 20px;
 }
+
+
 /*======== MEDIA QUERIES ========*/
 @media (min-width: 1000px){
     header .box-cabecalho img{
@@ -226,9 +241,23 @@ main .box-main .card-servico.card-servico.card-servico.imposto
     }
 
     main .box-main{
+        flex-direction: row;
         font-size: 25px;
     }
+    main .box-main a{
+        margin: 0px 20px;
+    }
 
+    main .box-main a .card-servico{
+        height: 100%;
+    }
+
+    #titulo-trabalhista,
+    #titulo-empresarial,
+    #titulo-imposto{
+        align-items: end;
+    }
+    
 }
 
 @media (max-width: 999px){
@@ -237,40 +266,40 @@ main .box-main .card-servico.card-servico.card-servico.imposto
     }
 }
 
-@media (max-width: 300px){
+@media (min-width: 100px) and (max-width: 500px){
     main .box-main .card-servico.card-servico.trabalhista
 .titulo-campo-card-servico-trabalhista{
-    font-size: 13px;
+    font-size: 10px;
     margin: 0px 10px;
 }
 
 main .box-main .card-servico.card-servico.trabalhista
 .texto-campo-card-servico-trabalhista{
-    font-size: 9px;
+    font-size: 5px;
     margin: 0px 10px;
 }
 
 
 main .box-main .card-servico.card-servico.empresarial
 .titulo-campo-card-servico-empresarial{
-    font-size: 13px;
+    font-size: 10px;
 }
 
 main .box-main .card-servico.card-servico.card-servico.empresarial
 .texto-campo-card-servico-empresarial{
-    font-size: 9px;
+    font-size: 5px;
     font-weight: 200;
 }
 
 
 main .box-main .card-servico.card-servico.imposto
 .titulo-campo-card-servico-imposto{
-    font-size: 13px;
+    font-size: 10px;
 }
 
 main .box-main .card-servico.card-servico.card-servico.imposto
 .texto-campo-card-servico-imposto{
-    font-size: 9px;
+    font-size: 5px;
     font-weight: 200;
 }
 }
