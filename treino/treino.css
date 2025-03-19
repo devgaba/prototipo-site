@@ -154,13 +154,14 @@ footer .box-footer.primeiro{
     main .box-main
     .campo-box-main.primeiro{
         font-size: 60px;
-        padding: 50px;
+        padding: 0px 50px;
     }
     
     main .box-main .campo-box-main.segundo{
         font-size: 30px;
         line-height: 60px;
-        padding: 50px;
+        padding-top: 0px;
+        padding: 0px 50px 50px 50px;
     }
     main .box-main
     .campo-box-main.segundo
