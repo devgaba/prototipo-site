@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Inter";
+    margin: 0px;
+    height: 100dvh;
+}
+
+
+/*=========== MAIN ===========*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+}
+
+main .box-main.titulo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    line-height: 30px;
+    width: 80%;
+    height: 50px;
+    margin: 20px 0px;
+}
+
+main .box-main.titulo h1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+
+#nome-empresarial-roxo{
+    color: #4B3986;
+    padding-left: 10px;
+}
+main .box-main.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+}
+
+/*-------- CAMPO CONTAINER*/
+main .box-main.container 
+.campo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    height: 80px;
+    background-color: #3B3748;
+    border-radius: 2px;
+}
+main .box-main.container
+.teste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+main .box-main.container
+.teste p {
+    font-size:8px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+main .box-main.container
+.area-container.atividades{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+main .box-main.container
+.area-container.imagem{
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/departamento_empresarial.png);
+    background-size: cover;
+    background-position: -110px;
+}
+
+
+
+/*teste*/
+
+.teste{
+    width: 100%;
+    margin: 20px 0px;
+    height: 50px;
+    background-color: #3B3748;
+}
+
+
+/*========= MEDIA QUERIE =========*/
+@media (min-width: 750px){
+    main .box-main.titulo h1{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 30px;
+    }
+    
+    main .box-main.container{
+        flex-direction: row;
+        justify-content: center;
+        width: 80vw;
+        height: 350px;
+    }
+
+    main .box-main.container
+    .campo-container{
+        width: 104px;
+        margin: 50px;
+    }
+
+    main .box-main.container
+    .area-container.atividades{
+        width: 100dvw;
+        flex-direction: row;
+    }
+
+    .teste{
+        display: flex;
+        align-items: center;
+        width: 240px;
+        height: 60px;
+        padding: 40px;
+        margin: 20px 20px;
+    }
+
+    main .box-main.container
+    .teste p {
+    font-size: 14px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    padding: 0px 20px;
+}
+main .box-main.container
+    .area-container.imagem{
+    background-position: -100px;
+}
+
+}
+
+@media (max-width: 1009px){
+    main .box-main.container
+    .area-container.imagem{
+        display: none;
+    }
+    
+}
+
+
+@media (min-width: 1600px){
+    main .box-main.container{
+        height: 500px;
+    }
+
+    main .box-main.container
+    .area-container.atividades{
+        height: 500px;
+        align-items: end;
+    }
+
+    main .box-main.container
+    .area-container.atividades
+    .teste{
+        width: 369px;
+        height: 104px;
+        margin: 0px;
+    }
+
+    main .box-main.container
+    .area-container.atividades 
+    .teste p{
+        font-size: 20px;
+        padding: 40px 0px;
+    }
+
+    main .box-main.container
+    .area-container.imagem{
+    background-position: -180px;
+}
+}
+/*
+
+
+<div class="campo-container">
+                    <p>
+                        Abertura, Alteração e Encerramento
+                        de Empresas
+                    </p>
+                </div>
+                <div class="campo-container">
+                    <p>
+                        Apuração de Tributos
+                    </p>
+                </div>
+                <div class="campo-container">
+                    <p>
+                        Apuração de Impostos
+                    </p>
+                    
+                </div>
+                <div class="campo-container">
+                    <p>
+                        Escrituração Contábil
+                    </p>
+                    
+                </div>
+                <div class="campo-container">
+                    <p>
+                        Consultoria Contábil
+                    </p>
+                    
+                </div>
+                <div class="campo-container">
+                    <p>
+                        Elaboração de Balanço Patrimonial
+                        e Demonstrações Contábeis
+                    </p>
+                    
+                </div>
+
+*/

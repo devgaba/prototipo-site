@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Inter";
+    margin: 0px;
+    height: 100dvh;
+}
+
+
+/*=============== footer ================*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    background-color: #3B3748;
+}
+footer .box-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal 8px "Inter";
+    color: white;
+    margin: 0px 30px;
+
+}
+footer .box-footer .endereco{
+    flex: 1;
+    padding: 10px 2px;
+    width: 40%;
+    text-align: end;
+    font: normal 6px "Inter";
+    color: white;
+    letter-spacing: 1px;
+}
+
+footer .box-footer .line-division{
+    width: 1px;
+    margin: 0px 10px;
+    height: 70%;
+    background-color: white;
+}
+
+footer .box-footer .redes-sociais{
+    padding: 0px 2px;
+    flex: 1;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+footer .box-footer .redes-sociais img{
+    width: 20px;
+    height: 20px;
+}
+
+/*================ MEDIA QUERIES ================*/
+@media (min-width: 750px){
+    footer{
+        height: 230px;
+    }
+
+    footer .box-footer .endereco{
+        flex: 1;
+        padding: 6px 2px;
+        width: 40%;
+        text-align: end;
+        font: normal 10px "Inter";
+
+    }
+}

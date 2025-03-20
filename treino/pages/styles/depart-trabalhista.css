@@ -139,6 +139,7 @@ footer .box-footer .redes-sociais img{
     main .box-main.container{
         flex-direction: row;
         flex-wrap: wrap;
+        height: 70%;
     }
     
     main .box-main.container
