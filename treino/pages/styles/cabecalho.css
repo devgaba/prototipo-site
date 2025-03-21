@@ -37,7 +37,6 @@ header .box-cabecalho{
 header .box-cabecalho img{
     width: 100px;
     background: none;
-    margin: 9px 0px;
 }
 
 header .box-cabecalho .menu-sanduiche{
@@ -57,15 +56,15 @@ header .box-cabecalho
 }
 
 header .box-cabecalho nav ul{
+    list-style: none;
     padding: 0px;
     display: flex;
     justify-content: space-between;
     width: 500px;
 }
 
-header .box-cabecalho nav ul a{
+header .box-cabecalho nav ul li a{
     padding: 10px 20px;
-    list-style: none;
     text-decoration: none;
     color: #2a57a3;
 }

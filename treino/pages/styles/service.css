@@ -20,58 +20,7 @@ footer{
 }
 
 /*===== header =====*/
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 150px;
-    background: none;
-}
 
-header .box-cabecalho{
-    margin: 0px 20px;
-    display: flex;
-}
-
-header .box-cabecalho img{
-    width: 100px;
-    background: none;
-}
-
-header .box-cabecalho .menu-sanduiche{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    width: 30px;
-    height: 25px;
-}
-
-header .box-cabecalho
-.menu-sanduiche .line-menu-sanduiche{
-    width: 25px;
-    height: 4px;
-    background-color: rgb(23, 23, 79);
-}
-
-header .box-cabecalho nav ul{
-    padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    width: 500px;
-}
-
-header .box-cabecalho nav ul a{
-    padding: 10px 20px;
-    list-style: none;
-    text-decoration: none;
-    color: #2a57a3;
-}
-
-header .box-cabecalho nav ul a:hover{
-    background-color: #2a57a3;
-    color: white;
-}
 
 
 /*========= MAIN ========*/
