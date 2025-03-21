@@ -65,11 +65,11 @@ header .box-cabecalho nav ul a{
     padding: 10px 20px;
     list-style: none;
     text-decoration: none;
-    color: #3B3748;
+    color: #2a57a3;
 }
 
 header .box-cabecalho nav ul a:hover{
-    background-color: #3B3748;
+    background-color: #2a57a3;
     color: white;
 }
 
@@ -80,7 +80,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #3B3748;
+    background-color: #102345;
     height: 1000px;
 }
 

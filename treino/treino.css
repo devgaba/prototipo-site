@@ -64,11 +64,11 @@ header .box-cabecalho nav ul a{
     padding: 10px 20px;
     list-style: none;
     text-decoration: none;
-    color: #3B3748;
+    color: #2a57a3;
 }
 
 header .box-cabecalho nav ul a:hover{
-    background-color: #3B3748;
+    background-color: #2a57a3;
     color: white;
 }
 
@@ -126,7 +126,7 @@ main .box-main .campo-box-main.segundo a input{
 
 main .box-main .campo-box-main.segundo a input:hover{
     background-color: white;
-    color: #201c2c;
+    color: #2a57a3;
 }
 /*===== footer =====*/
 footer{
@@ -139,7 +139,7 @@ footer{
 footer .box-footer{
     width: 100dvw;
     height: 100px;
-    background-color: #3B3748;
+    background-color: #2a57a3;
 
 }
 

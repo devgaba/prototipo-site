@@ -35,7 +35,7 @@ main .box-main.titulo h1{
     font-size: 16px;
 }
 #nome-trabalhista-roxo{
-    color: #4B3986;
+    color: #2a57a3;
     padding-left: 10px;
 }
 
@@ -83,7 +83,7 @@ footer{
     width: 100%;
     height: 200px;
     margin-top: 30px;
-    background-color: #3B3748;
+    background-color: #2a57a3;
 }
 footer .box-footer{
     display: flex;
