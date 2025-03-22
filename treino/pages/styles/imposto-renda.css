@@ -55,7 +55,7 @@ main .container{
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.6),
      rgba(0, 0, 0, 0.6)), 
-     url(../prototipo-site/images/imposto_renda.png);
+     url(../../images/imposto_renda.png);
     background-size: cover;
 }
 

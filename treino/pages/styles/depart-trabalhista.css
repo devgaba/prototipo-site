@@ -49,7 +49,7 @@ main .box-main.container{
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.6),
      rgba(0, 0, 0, 0.6)), 
-     url(../prototipo-site/images/departamento_pessoal.png);
+     url(../../images/departamento_pessoal.png);
     background-size: cover;
 }
 
