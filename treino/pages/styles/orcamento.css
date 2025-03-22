@@ -38,7 +38,7 @@ section{
     justify-content: space-around;
     font: normal 30px "Inter";
     font-weight: 800;
-    color: rgb(106, 80, 131);
+    color: #2a57a3;
 }
 .campoUm-section p{
     margin: 0px;
@@ -54,7 +54,7 @@ section{
     font-weight: 200;
     text-align: justify;
     margin: 0px;
-    line-height: 40px;
+    line-height: 30px;
     letter-spacing: 1.56px;
 }
 
@@ -87,11 +87,12 @@ section{
     font: normal 10px "Inter";
     font-weight: 600;
     color: white;
-    background-color: #3B3748;
+    background-color: #2a57a3;
     border: none;
 }
 
 /*=================== LINE FOOTER ================*/
+
 /*
 footer{
     display: flex;
@@ -198,3 +199,66 @@ footer .box-footer button img{
     }
 }
 */
+
+@media (min-width: 700px){
+    section{
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    section .campoUm-section{
+        display: flex;
+        justify-content: space-around;
+        width: 35%;
+        height: 400px;
+    }
+
+    section .campoUm-section .texto-campoUm p{
+        height: 150px;
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    
+    section .campoUm-section{
+        display: flex;
+        justify-content: space-around;
+        width: 35%;
+        height: 400px;
+    }
+
+    section .campoDois-section{
+        width: 400px;
+        height: 380px;
+    }
+
+    section .campoDois-section .titulo-input {
+        font-size: 20px;
+    }
+
+    section .campoDois-section input{
+        height: 60px;
+    }
+    section .campoDois-section .botao{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    section .campoDois-section .botao button{
+        width: 98%;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    section .campoUm-section .titulo-campo-um{
+        font-size: 40px;
+    }
+    section .campoUm-section .texto-campoUm p{
+        height: 200px;
+        font-size: 32px;
+        letter-spacing: 3px;
+        line-height: 80px;
+    }
+}
