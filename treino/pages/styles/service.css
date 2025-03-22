@@ -67,34 +67,34 @@ main .box-main .card-servico.trabalhista{
     display: flex;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)),
-    url(../prototipo-site/images/departamento_pessoal.png);
+    url(../images/departamento_pessoal.png);
     background-size: cover;
    }
 
 main .box-main .card-servico.trabalhista:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.87),
      rgba(0, 0, 0, 0.87)),
-     url(../prototipo-site/images/departamento_pessoal.png);
+     url(../images/departamento_pessoal.png);
    }
 
 
 main .box-main .card-servico.empresarial{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)),
-    url(../prototipo-site/images/departamento_empresarial.png);
+    url(../images/departamento_empresarial.png);
     background-size: cover;
 }
 
 main .box-main .card-servico.card-servico.empresarial:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.87),
      rgba(0, 0, 0, 0.87)), 
-     url(../prototipo-site/images/departamento_empresarial.png);
+     url(../images/departamento_empresarial.png);
 }
 
 main .box-main .card-servico.imposto{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)),
-    url(../prototipo-site/images/imposto_renda.png);
+    url(../images/imposto_renda.png);
     background-size: cover;
 }
 
@@ -102,7 +102,7 @@ main .box-main .card-servico.imposto{
 main .box-main .card-servico.card-servico.imposto:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.87),
      rgba(0, 0, 0, 0.87)),
-     url(../prototipo-site/images/imposto_renda.png);
+     url(../images/imposto_renda.png);
 }
 
 /*------------ CONFIGURAÇÃO TÍTULOS E TEXTOS (CARDS)------*/
