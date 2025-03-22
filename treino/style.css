@@ -84,7 +84,7 @@ main .box-main{
     justify-content: start;
     width: 100vw;
     height: 100%;
-    background-image: url(images/background-home.png);
+    background-image: url(../treino/images/background-home.png);
     background-size: cover;
 }
 
