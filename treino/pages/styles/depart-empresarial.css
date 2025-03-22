@@ -93,7 +93,7 @@ main .box-main.container
 .area-container.imagem{
     width: 50%;
     height: 100%;
-    background-image: url(/images/departamento_empresarial.png);
+    background-image: url(../prototipo-site/images/departamento_empresarial.png);
     background-size: cover;
     background-position: -110px;
 }
