@@ -67,7 +67,7 @@ main .box-main .card-servico.trabalhista{
     display: flex;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)),
-    url(/treino/images/background-card-dpt.png);
+    url(../../images/background-card-dpt.png);
     background-size: cover;
    }
 
